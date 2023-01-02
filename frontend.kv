@@ -2,10 +2,12 @@
     GridLayout:
         cols: 1
         Label:
+            id: time_label
             size_hint_y: 0.4
         Button:
             id: button
             text: 'Some text'
+            on_press: root.insert()
         Label:
             size_hint_y: 0.4
 
